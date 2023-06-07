@@ -7,7 +7,7 @@ import {
     VIEW_LEAVE_FAILED
 } from '../constants/leaveConstants';
 import axios from 'axios';
-const API = 'http://localhost:5000'
+const API = process.env.REACT_APP_NODE_API;
 export const applyLeave = (userData) => async (dispatch) => {
     try {
         dispatch({

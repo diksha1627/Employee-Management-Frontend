@@ -9,7 +9,7 @@ import {
 import axios from 'axios';
 
 
-const API = 'http://localhost:5000'
+const API = process.env.REACT_APP_NODE_API;
 export const addEmployee = (userData) => async (dispatch) => {
 
     try {

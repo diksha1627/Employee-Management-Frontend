@@ -11,7 +11,7 @@ import {
 
 
 // const API = process.env.REACT_APP_NODE_API;
-const API = 'http://localhost:5000'
+const API = process.env.REACT_APP_NODE_API;
 console.log(API)
 const localStorage = window.localStorage
 export const signUpUser = (userData) => async (dispatch) => {
