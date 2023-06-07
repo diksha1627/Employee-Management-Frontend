@@ -1,0 +1,47 @@
+.sig {
+    margin: 0rem 0rem 0rem 3rem;
+    border-top: 2px solid black;
+    width: 13rem;
+    padding: 0.2rem 0rem 0rem 2rem;
+}
+
+.currentDate{
+    margin: 4rem -21rem 0rem 3rem;
+    width: 23rem;
+    padding: 0.5rem 0rem 0rem 2rem;
+}
+
+.image{
+    display: block;
+    margin-left: auto;
+    width: 16rem;
+    position: relative;
+    padding: 0.5rem 1rem 0rem 2rem;
+    
+}
+.image2{
+    position: relative;
+    margin: -7rem -23rem 0rem 11rem;
+    width: 16rem;
+    padding: 0.5rem 1rem 0rem 2rem;
+}
+.branch{
+    font-weight: 900;
+}
+
+.file{
+    margin:0rem 0rem 0rem 0rem;
+    padding:0.5rem 0.5rem 0.5rem 0.5rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    background-color: rgb(73, 65, 207);
+    font-weight: 700;
+    color:rgb(240, 235, 245);
+    position: relative;
+    top:-2rem;
+    right:-40rem;
+}
+.file:hover{
+    background-color: rgb(134, 234, 234);
+    border: 0.2rem solid rgb(105, 180, 250);
+}
