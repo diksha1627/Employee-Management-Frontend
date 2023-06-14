@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.df8fef1d.css",
+    "main.js": "/static/js/main.9cc97d80.js",
+    "static/media/Signature_Purbali (1).png": "/static/media/Signature_Purbali (1).5620e82f5ce783a77022.png",
+    "index.html": "/index.html",
+    "static/media/file.csv": "/static/media/file.a6391d2154e35aec4362.csv",
+    "main.df8fef1d.css.map": "/static/css/main.df8fef1d.css.map",
+    "main.9cc97d80.js.map": "/static/js/main.9cc97d80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df8fef1d.css",
+    "static/js/main.9cc97d80.js"
+  ]
+}
