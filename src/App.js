@@ -13,7 +13,7 @@ import LeaveApplications from './components/LeaveApplications/LeaveApplications'
 import ViewAttendance from './components/ViewAttendance/ViewAttendance';
 const App = () => {
 
-    const user = localStorage.getItem("token");
+    // const user = localStorage.getItem("token");
     return (
         <>
         <BrowserRouter>
