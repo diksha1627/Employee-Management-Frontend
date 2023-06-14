@@ -3,9 +3,9 @@ import './sidebar.css';
 
 const Sidebar = () => {
 
-    const user = localStorage.getItem("userInfo");
-    var obj = JSON.parse(user);
-    const type = obj.user.type;
+    // const user = localStorage.getItem("userInfo");
+    // var obj = JSON.parse(user);
+    // const type = obj.user.type;
     return (
         <div>
             <div id="sidebar-wrapper">

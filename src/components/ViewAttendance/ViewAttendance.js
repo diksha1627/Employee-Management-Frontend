@@ -10,7 +10,7 @@ function ViewAttence() {
     const name = obj.user.name;
 
     const dispatch = useDispatch();
-    const { data, loading, error } = useSelector((state) => state.viewAttendanceReducer);
+    const { data } = useSelector((state) => state.viewAttendanceReducer);
 
     useEffect(()=>{
        

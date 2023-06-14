@@ -11,7 +11,7 @@ function MarkAttendance() {
     var id = obj.user._id;
 
     const dispatch = useDispatch();
-    const {data:attendanceData, loading, error } = useSelector((state) => state.markAttendanceReducer);
+    const {data:attendanceData} = useSelector((state) => state.markAttendanceReducer);
 
     const name = obj.user.name;
     const email = obj.user.email;
@@ -48,7 +48,7 @@ function MarkAttendance() {
                 title:'Attendance Marked successfully!!'
             });
         }
-    },[])
+    },[attendanceData])
 
     return (
         <div>

@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import { viewleave } from '../../redux/actions/leaveAction';
 import NavBar from '../NavBar/Navigationbar';
 import Sidebar from '../Sidebar/Sidebar';
 import { useDispatch, useSelector } from 'react-redux';
 function LeaveApplications() {
 
-    const { data, loading, error } = useSelector((state) => state.viewLeaveReducer);
+    const { data} = useSelector((state) => state.viewLeaveReducer);
     const dispatch = useDispatch();
     useEffect(() => {
         dispatch(viewleave())

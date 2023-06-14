@@ -25,7 +25,7 @@ function EmployeeAdd() {
     });
 
     const dispatch = useDispatch();
-    const { data , loading , error } = useSelector((state)=>state.employeeAddReducer);
+    const { data , error } = useSelector((state)=>state.employeeAddReducer);
 
     const handleChange = (event)=>{
         setUser({...user,[event.target.name]:[event.target.value]});

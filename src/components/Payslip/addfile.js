@@ -1,6 +1,5 @@
 // import { Paper, Button, Typography } from '@material-ui/core'
 import React, { useState, useEffect } from "react";
-import axios from "axios";
 import { Link } from "react-router-dom";
 import "./payslip.css";
 import SideBar from "../Sidebar/Sidebar";
@@ -15,7 +14,7 @@ const AddFile = () => {
     const [selectedFile, setSelectedFile] = useState();
 
     const dispatch = useDispatch();
-    const {  loading, data: uploadFileData, error } = useSelector((state)=> state.uploadAllPayslipsReducer);
+    // const {   data: uploadFileData, error } = useSelector((state)=> state.uploadAllPayslipsReducer);
 
     const changeHandler = (event) => {
         setSelectedFile(event.target.files[0]);

@@ -11,7 +11,7 @@ import Swal from 'sweetalert2';
 const ApplyLeave = () => {
 
     const dispatch = useDispatch();
-    const { data:applyLeavedata , loading ,error } = useSelector((state)=>state.applyLeaveReducer);
+    const { data:applyLeavedata  } = useSelector((state)=>state.applyLeaveReducer);
 
 
     const user = localStorage.getItem("userInfo");
