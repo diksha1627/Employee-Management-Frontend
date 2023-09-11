@@ -38,27 +38,31 @@ const Navigationbar = () => {
               Logout
             </button>
              <div class="mobile">
-            <button  onClick={handleLogout}>
+            <a  class="smallbuttons" href="/employee-view">
               View Employees
-            </button>
+            </a>
 
-            <button  onClick={handleLogout}>
+            <a class="smallbuttons"  href="/employee-add">
               Add Employees
-            </button>
+            </a>
 
-            <button  onClick={handleLogout}>
+            <a class="smallbuttons"  href="/add-payslip">
               Generate Payslip
-            </button>
-            <button  onClick={handleLogout}>
+            </a>
+            <a class="smallbuttons"  href="/mark-attendance">
+              Mark Attendance
+            </a>
+            <a class="smallbuttons"  href="/view-attendance">
               View Attendance
-            </button>
-            <button  onClick={handleLogout}>
-              Apply for Leave
-            </button>
+            </a>
 
-            <button  onClick={handleLogout}>
+            <a class="smallbuttons"  href="/apply-for-leave">
+              Apply for Leave
+            </a>
+
+            <a class="smallbuttons"  href="/leave-applications">
               Leave Applications
-            </button>
+            </a>
             </div>
                        
           </Nav>

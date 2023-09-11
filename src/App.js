@@ -6,7 +6,7 @@ import Payslip from './components/Payslip/payslip';
 import EmployeeAdd from './components/EmployeeAdd/EmployeeAdd';
 import ViewProfile from './components/ViewProfile/ViewProfile';
 import ApplyLeave from './components/ApplyLeave/ApplyLeave'
-import ViewEmployee from './components/ViewEmployee/ViewEmployee';
+import ViewEmployee from './components/ViewEmployee/ViewEmployee'; 
 import MarkAttendance from './components/MarkAttendance/MarkAttendance';
 import Login from './components/Login/Login';
 import LeaveApplications from './components/LeaveApplications/LeaveApplications';

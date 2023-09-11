@@ -21,6 +21,16 @@ button{
 	border-radius: 3rem;
 	background-color: rgb(130, 218, 218);
 }
+.smallbuttons{
+	text-decoration: none;
+	color:black;
+	font-weight: bold;
+	border:1px solid black;
+	width:10rem;
+	padding:0.5rem;
+	border-radius: 3rem;
+	background-color: rgb(130, 218, 218);
+}
 @media (max-width:787px){
 	.Buttons{
 	    display:flex;
