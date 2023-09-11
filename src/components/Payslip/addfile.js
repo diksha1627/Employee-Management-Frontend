@@ -47,12 +47,9 @@ const AddFile = () => {
         <div>
             <NavBar />
             <SideBar />
-            <div
-                style={{
-                    margin: "0rem 0rem 0rem 16rem",
-                    padding: "0rem 0rem 0rem 0rem",
-                }}
-            >
+            <div className="addfileform">
+                 
+
                 <form
                     action="/"
                     method="post"
@@ -68,6 +65,7 @@ const AddFile = () => {
                         className="btn btn-secondary mx-3"
                         style={{ width: "15rem", margin: "3rem 0rem 0rem 0rem" }}
                     />
+                
                     <button
                         className="btn btn-primary "
                         onClick={refresh}
@@ -75,16 +73,14 @@ const AddFile = () => {
                     >
                         Submit
                     </button>
+                  
                 </form>
-
                 <a className="file" href={file} download>
                     File_Link
-                </a>
-
+                    </a>
                 <table
                     id="table"
-                    class="table"
-                    style={{ width: "50rem", margin: "3rem" }}
+                    class="table2"
                 >
                     <thead class="bg-dark text-white ">
                         <tr>

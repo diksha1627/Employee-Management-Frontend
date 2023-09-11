@@ -10,7 +10,7 @@ const Signup = () => {
     const navigate = useNavigate();
     const dispatch = useDispatch();
 
-   const { userInfo ,error } = useSelector((state)=> state.userSignUp) 
+   const { userInfo ,error ,loading } = useSelector((state)=> state.userSignUp) 
 
     const [data, setData] = useState({
         type: "",
@@ -54,6 +54,15 @@ const Signup = () => {
             })
         }
       },[error]);
+
+      useEffect(()=>{
+        if(loading){
+            swal.fire({
+              icon:'info',
+              title:'Loading..',
+            })
+        }
+      },[loading]);
 
     return (
         <div className="signup_container">

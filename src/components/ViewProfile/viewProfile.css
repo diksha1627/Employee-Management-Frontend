@@ -2,3 +2,63 @@
     margin:3rem 0rem 0rem 18rem;
     padding:0rem 0rem 0rem 0rem;
 }
+
+/* Apply these styles to your 'details' element */
+.details {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width:40rem;
+
+}
+
+/* Style the labels and data */
+.details h5 {
+  font-size: 18px;
+  margin: 10px 10px ;
+}
+
+.details label {
+  font-weight: bold;
+  margin-left: 10px;
+  color: #333;
+  border:1px solid rgb(121, 119, 119);
+  padding:0.5rem;
+  border-radius: 1rem;
+}
+
+/* Add some spacing between the labels and data */
+.details h5 label {
+  margin-right: 5px;
+}
+
+/* Style the address separately, add some margin-top for spacing */
+.details h5:last-child {
+  margin-top: 20px;
+}
+
+
+
+
+
+@media (max-width:787px){
+    
+.details label {
+    font-weight: bold;
+    margin-left: 3px;
+    color: #333;
+    border:1px solid rgb(121, 119, 119);
+    padding:0.5rem;
+    border-radius: 1rem;
+    font-size:16px;
+  }
+
+    .details{
+        margin:3rem 0rem 0rem 1rem;
+        padding:0rem 0rem 0rem 0rem;
+        width:22rem;
+    }
+}

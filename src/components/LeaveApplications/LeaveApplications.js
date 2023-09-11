@@ -23,7 +23,7 @@ function LeaveApplications() {
                         <div class="row">
                             <div class="col-lg-12">
                                 <h1>All Employees</h1>
-                                <div style={{ height: "600px", overflow: "auto" }}>
+                                <div  style={{ height: "10rem",width:"30rem", overflow: "auto" }} >
                                     <table id="example" class="display" cellspacing="0" style={{ height: "10%", overflow: "auto" }}>
                                         <thead>
                                             <tr>

@@ -24,11 +24,11 @@ function ViewEmployee() {
         <div>
         <div id="page-content-wrapper">
         <div class="container-fluid xyz">
-            <div class="row">
+            <div class="row"> 
                 <div class="col-lg-12">
                     <h1>All Employees</h1>
-                    <div style={{height:"600px" , overflow: "auto"}}>
-                        <table id="example" class="display" cellspacing="0" style={{ height: "10%" ,overflow: "auto" }}>
+                    <div className='employeeTable'>
+                        <table id="example" class="display" cellspacing="0">
                             <thead>
                             <tr>
                                 <th>Name</th>

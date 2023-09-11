@@ -38,10 +38,35 @@
     font-weight: 700;
     color:rgb(240, 235, 245);
     position: relative;
-    top:-2rem;
-    right:-40rem;
+    
 }
 .file:hover{
     background-color: rgb(134, 234, 234);
     border: 0.2rem solid rgb(105, 180, 250);
+}
+
+.addfileform{
+    margin-left: 16rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+
+}
+.table2{
+    width:40rem;
+}
+@media (max-width:787px){
+    .addfileform{
+        margin-left: 1rem;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:2rem;
+    }
+    .table2{
+        width:20rem;
+    }
 }

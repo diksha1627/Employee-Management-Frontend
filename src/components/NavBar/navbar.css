@@ -1,13 +1,39 @@
 
-.white_btn {
-	border: none;
-	outline: none;
-	padding: 12px 0;
-	background-color: rgb(233, 173, 173);
-	border-radius: 20px;
-	width: 120px;
-	font-weight: bold;
-	font-size: 14px;
-	cursor: pointer;
-	margin-right: 20px;
+.Buttons{
+	    display:flex;
+		justify-content: center;
+		align-items: center;
+		gap:1rem;
+}
+.mobile{
+	display:none;
+}
+
+.Buttons{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+button{
+	border:1px solid black;
+	width:10rem;
+	padding:0.5rem;
+	border-radius: 3rem;
+	background-color: rgb(130, 218, 218);
+}
+@media (max-width:787px){
+	.Buttons{
+	    display:flex;
+		justify-content: center;
+		align-items: center;
+		gap:1rem;
+		margin-top: 1rem;
+}
+	.mobile{
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap:1rem;
+	}
 }

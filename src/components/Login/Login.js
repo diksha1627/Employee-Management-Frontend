@@ -11,7 +11,7 @@ const Login = () => {
 	const navigate = useNavigate();
 	const dispatch = useDispatch();
 
-	const { userInfo, error } = useSelector((state) => state.userSignIn)
+	const { userInfo, error ,loading} = useSelector((state) => state.userSignIn)
 
 
 	const [data, setData] = useState({ email: "", password: "" });
@@ -50,6 +50,15 @@ const Login = () => {
             })
         }
       },[error]);
+
+	  useEffect(()=>{
+        if(loading){
+            swal.fire({
+              icon:'info',
+              title:'Loading..',
+            })
+        }
+      },[loading]);
 
 	return (
 		<div className="login_container">

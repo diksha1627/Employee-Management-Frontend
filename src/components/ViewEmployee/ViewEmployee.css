@@ -12,3 +12,19 @@ table, th, td {
     padding: 15px;
     text-align: left;
   }
+
+  @media (max-width:787px){
+    .xyz{ 
+   
+      position:relative;
+      top:1rem;
+      left:-8rem;
+  }
+
+
+  .employeeTable{
+    height:10rem;
+    overflow: auto;
+    width:30rem;
+  }
+  }

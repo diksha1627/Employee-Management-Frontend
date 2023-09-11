@@ -6,7 +6,7 @@ import { markAttendance } from '../../redux/actions/attendanceAction';
 import { useDispatch, useSelector } from 'react-redux';
 import Swal from 'sweetalert2';
 function MarkAttendance() {
-    const user = localStorage.getItem("token");
+    const user = localStorage.getItem("userInfo");
     var obj = JSON.parse(user);
     var id = obj.user._id;
 

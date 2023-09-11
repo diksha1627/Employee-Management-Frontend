@@ -6,6 +6,8 @@ import './payslip.css';
 import pic from '../../images/images.png'
 import pic1 from '../../images/Signature_Purbali (1).png'
 import { Link } from 'react-router-dom';
+const API = process.env.REACT_APP_NODE_API;
+
 function Payslip() {
 
     const handleDownload = () => {
@@ -24,7 +26,7 @@ function Payslip() {
 
     useEffect(() => {
  
-        axios.get(`http://localhost:5000/get-single-payslip/${id}`)
+        axios.get(`${API}/get-single-payslip/${id}`)
             .then(res => {
                 console.log(res.data.data)
                 setData(res.data.data)

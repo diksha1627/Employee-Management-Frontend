@@ -41,12 +41,10 @@ const Sidebar = () => {
                         <a href="/view-attendance"> <span class="fa-stack fa-lg pull-left"><i class="fa fa-list-ol fa-stack-1x "></i></span>View
                             Attendance</a>
                     </li>
-                   {/* {type === "employee" ?   */}
-                    {/* <li data-toggle="modal" data-target="#myModal2"  >
+                     <li data-toggle="modal" data-target="#myModal2"  >
                         <a href="/mark-attendance"><span class="fa-stack fa-lg pull-left"><i
                             class="fa fa-check-circle fa-stack-1x "></i></span>Mark Attendance</a>
-                    </li>  */}
-                     {/* : ""}  */}
+                    </li>  
 
                     <li>
                         {/* <Link to={`/employee-profile/${id}`}><span class="fa-stack fa-lg pull-left"><i
